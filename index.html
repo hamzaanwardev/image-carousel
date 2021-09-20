@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Image Carousel</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="carousel">
-        <div class="image-conatainer">
-            <img src="img/fedor-pay1PmVgNnU-unsplash.jpg" alt="">
-            <img src="img/helena-lopes-3__dGvSIPh8-unsplash.jpg" alt="">
-            <img src="img/s-tsuchiya-Thfe0QxHXDg-unsplash.jpg" alt="">
-            <img src="img/takashi-miyazaki-6wohP_DrSWw-unsplash.jpg" alt="">
-        </div>
-        <div class="buttons-container">
-            <button id="prev" class="btn">Prev</button>
-            <button id="next" class="btn">Next</button>
-        </div>
+      <div class="image-container" id="imgs">
+        <img src="img/fedor-pay1PmVgNnU-unsplash.jpg"
+       alt="first-image"
+       />
+    <img
+       src="img/xps-8pb7Hq539Zw-unsplash (1).jpg"
+       alt="second-image"
+       />
+    <img
+       src="img/s-tsuchiya-Thfe0QxHXDg-unsplash.jpg"
+       alt="third-image"
+       />
+    <img
+       src="img/helena-lopes-3__dGvSIPh8-unsplash.jpg"
+       alt="fourth-image"
+       />
+       <img
+       src="img/takashi-miyazaki-6wohP_DrSWw-unsplash.jpg"
+       alt="fourth-image"
+       />
+
+      </div>
+
+      <div class="buttons-container">
+        <button id="left" class="btn">Prev</button>
+        <button id="right" class="btn">Next</button>
+      </div>
     </div>
-    
-
-
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
