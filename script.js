@@ -12,6 +12,18 @@ function run () {
     changeImage()
 }
 
-functio0n changeImage () b{
-    
+function changeImage () {
+    if (idx > img.length) {
+        idx = 0;
+    } else if (idx < 0) {
+        idx = img.length - 1
+    }
+
+    img.style.transform = `translateX(${-idx * 500}px)`
 }
+
+rightBtn.addEventListener('click', () => {
+    idx--
+
+    changeImage()
+})
